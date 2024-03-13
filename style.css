@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url("/bg.png");
+  }
+            
+  #added {
+    background-image: url(/125\ pp\ chest\ still.png);
+    width: 991px;
+    height: 520px;
+    display: none;
+    position: relative;
+    z-index: 1;
+  }
+
+  #pp {
+    position: absolute;
+    left: 55px;
+    top: 157px;
+    background-image: url(/ppobj.png);
+    z-index: 5;
+    width: 206px;
+    height: 288px;
+  }
+
+  .numberBox {
+    position: absolute;
+    background-image: url(numberBox.png);
+    z-index: 10;
+    width: 69px;
+    height: 29px;
+    top: 410px;
+  }
+
+  #numberOne {
+    left: 280px;
+  }
+
+  #numberTwo {
+    left: 502px;
+  }
+
+  #numberThree {
+    left: 724px;
+  }
+  .card {
+    position: absolute;
+    top: 157px;
+    z-index: 5;
+    width: 206px;
+    height: 288px;
+    background-size: contain;
+  }
+
+  #card1 {
+    left: 277px;
+    /* background-image: url(/mh1-217-wrenn-and-six.png); */
+  }
+
+  
+  #card2 {
+    left: 499px;
+    background-image: url(/ltr-246-the-one-ring.png);
+  }
+
+  #card3 {
+    left: 720px;
+    background-image: url(/2x2-50-force-of-negation.png);
+  }
+
+
+  .number {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    position: absolute;
+
+    top: 400px;
+    z-index: 10;
+  }
+  #playPoints {
+    left: 90px;
+  }
+
+  #one {
+    left: 312px;
+  }
+
+  #two {
+    left: 534px;
+  }
+
+  #three {
+    left: 756px;
+  }
+
+  #itemsAdded {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: lightgray;
+    position: absolute;
+    left: 30px;
+    top: 111px;
+  }
+
+  .btn-grad {
+    background-image: linear-gradient(to bottom, rgb(116, 119, 119) 0%, rgb(32, 35, 36) 100%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: white;            
+    border-radius: 5px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-image: linear-gradient(to bottom, rgb(193, 193, 193) 0%, rgb(18, 20, 21) 100%);
+
+  }
+
+  .btn-grad:active {
+    background-image: linear-gradient(to bottom, rgb(18, 20, 21) 0%, rgb(63, 63, 63) 50%, rgb(18, 20, 21) 100%);
+    color: #fff;
+    text-decoration: none;
+  }
+ 
